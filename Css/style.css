@@ -26,6 +26,17 @@ nav{
     letter-spacing: 1px;
     cursor: pointer;
 }
+.logo:hover{
+    background: #262728;
+    border: 1px solid #262728;
+    padding: 12px 20px;
+    color: white;
+    transition: .3s;
+    border-radius: 29px;
+    text-decoration: none;
+
+    font-weight: bold;
+}
 nav ul{
     flex: 1;
     text-align: right;
@@ -74,7 +85,7 @@ header{
     border-radius: 50px;
     z-index: 2;
     background: white;
-    box-shadow: 0 0 30px rgb(0 0 0 /3%);
+    box-shadow: 0 0 30px rgb(0 0 0 /4%);
 }
 .bg{
     position: absolute;
@@ -151,3 +162,8 @@ button:hover{
     transition: .3s;
     cursor: pointer;
   }
+
+.typing
+{
+    color: var(--skin-color);
+}
